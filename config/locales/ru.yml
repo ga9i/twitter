@@ -1,0 +1,8 @@
+---
+ru:
+  tweets:
+    new:
+      title: "Новый твит"
+      cancel: "otmenit'"
+    edit:
+      title: "Редактирование"

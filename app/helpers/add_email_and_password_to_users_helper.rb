@@ -1,0 +1,2 @@
+module AddEmailAndPasswordToUsersHelper
+end

@@ -1,0 +1,17 @@
+<%= form_for(@add_email_and_password_to_tweet) do |f| %>
+  <% if @add_email_and_password_to_tweet.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@add_email_and_password_to_tweet.errors.count, "error") %> prohibited this add_email_and_password_to_tweet from being saved:</h2>
+
+      <ul>
+      <% @add_email_and_password_to_tweet.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

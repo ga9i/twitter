@@ -6,10 +6,8 @@ gem 'rails', '3.2.8'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'mysql'
+ 
 gem 'annotate'
-gem 'rb-readline'
-gem 'twitter-bootstrap-rails'
-gem 'russian'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
